@@ -1,0 +1,8 @@
+build
+figures
+install
+log
+src/*
+!src/README.md
+.git
+.gitignore
