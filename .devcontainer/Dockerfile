@@ -38,13 +38,14 @@ RUN (type -p wget >/dev/null || (sudo apt update && sudo apt-get install wget -y
 RUN sudo apt install -y \
     build-essential \
     cmake \
-    git \
     gh \
+    git \
     nano \ 
     tree \
     wget
 
 # install python packages
 RUN pip3 install \
-    jupyterlab
+    jupyterlab \
+    matplotlib
 

@@ -29,7 +29,16 @@ python src/test.py
 
 Output
 
-<img src="figures/output.png" alt="Python Script Output" style="width:900px;"/>
+<img src="figures/output.png" alt="Python PyTorch Script Output" style="width:900px;"/>
+
+
+```sh
+python src/plot_example.py
+```
+
+Output
+
+<img src="figures/output1.png" alt="Python Matplotlib Script Output" style="width:900px;"/>
 
 
 
